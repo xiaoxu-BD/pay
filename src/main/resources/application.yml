@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+payment:
+  notify-base-url: https://replace-with-your-ngrok-or-domain.example
+  wx:
+    app-id: your-wx-app-id
+    mch-id: your-wx-mch-id
+    partner-key: your-wx-partner-key
+  ali:
+    app-id: your-ali-app-id
+    private-key: your-ali-private-key
+    alipay-public-key: your-ali-public-key
+    server-url: https://openapi-sandbox.dl.alipaydev.com/gateway.do
